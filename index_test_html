@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personal Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+  
+    </head>
+
+
+
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+
+
+        <nav>
+            <ul>
+                <li><a href=""> Introduction</a></li>
+                <li><a href=""> Education</a></li>
+                <li><a href=""> Projects</a></li>
+            </ul>
+        </nav>
+
+
+
+        ###
+        <h1>Projects</h1>
+        <header><a href="#Pro02">Projects</a></header>
+        <h1 id="Pro02">Project section</h1>
+
+
+        <main>
+            <section>
+                <h2>About me</h2>
+                <p>Hi, I'm Binghui! I'm currently a graduate student at Clark University, specializing in Geographic Information Science (GIS).</p>
+                <img src="images/headshots.jpeg" alt="Binghui Profile Picture" style="width: 200px; height: auto;">
+            </section>
+
+            <section>
+                <h2>Education</h2>
+                <ul>
+                    <li>Master of Science in Geographic Information Science (GIS) - <i>Dec 2024</i></li>
+                    <li>Bachelor of Science in Civil Engineering - <i>May 2022</i></li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h2>Projects</h2>
+                <p>Here are some of the projects I've worked on:</p>
+                <ul>
+                    <li><a href="TransEcon.html">Transportation and Economic Analysis in NYC</a></li>
+                </ul>
+
+                <ul>
+                    <li>working on it...</li>
+                </ul>
+
+            </section>
+
+
+            <section>
+                <h3>Contact</h3>
+                <p>You can reach me via email at: <a href="mailto:Bingli@clarku.edu">Bingli@clarku.edu</a></p>
+            </section>
+        
+        </main>
+        <footer>
+            <p>Copyright &copy; 2024 Binghui Li. All rights reserved.</p>
+        </footer>
+    </body>
+
+
+
+</html>
