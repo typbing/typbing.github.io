@@ -30,7 +30,13 @@
         </nav>
 
         <div>
-            
+            <nav>
+                <ul>
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#Edu">Education</a></li>
+                    <li><a href="#Pro">Projects</a></li>
+                </ul>
+            </nav>
         </div>
 
         ###
