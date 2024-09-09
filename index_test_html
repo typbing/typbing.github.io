@@ -23,9 +23,9 @@
 
         <nav>
             <ul>
-                <li><a href=""> Introduction</a></li>
-                <li><a href=""> Education</a></li>
-                <li><a href=""> Projects</a></li>
+                <li><a href="intro"> Introduction</a></li>
+                <li><a href="Edu"> Education</a></li>
+                <li><a href="Pro"> Projects</a></li>
             </ul>
         </nav>
 
@@ -39,11 +39,28 @@
             </nav>
         </div>
 
-        ###
+        <!--  -->
         <h1>Projects</h1>
         <header><a href="#Pro02">Projects</a></header>
         <h1 id="Pro02">Project section</h1>
 
+
+        <div class="pro_image">
+        <figure></figure>
+            <img src="images/clark.jpg" alt="">
+            <figcaption>Web Mapping</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/clark.jpg" alt="">
+            <figcaption>Web Mapping</figcaption>
+        </figure>
+        </div>
+
+        <footer>
+            <p>Binghui li</p>
+            <p><a href="mailto:Bingli@clarku.edu">Bingli@clarku.edu</a></p>
+        </footer>
         
     </body>
 
