@@ -40,7 +40,7 @@
         </div>
 
         <!--  -->
-        <h1>Projects</h1>
+        <h1 style="font-size: 50px;">Projects</h1>
         <header><a href="#Pro02">Projects</a></header>
         <h1 id="Pro02">Project section</h1>
 
@@ -65,4 +65,6 @@
     </body>
 
 
+    <!-- insert external css -->
+    <!--link rel="stylesheet" href="css/intro_css.css"  -->
 </html>
