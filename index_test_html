@@ -57,11 +57,32 @@
         </figure>
         </div>
 
+
+        <div class="'intro" id="intro">
+            <img src="" alt="">
+
+        </div>
         <footer>
             <p>Binghui li</p>
             <p><a href="mailto:Bingli@clarku.edu">Bingli@clarku.edu</a></p>
         </footer>
         
+
+        <style> h1.intro{ color: red;} </style>
+
+        <h1 class="intro"> Introduction</h1>
+
+        <p class="intro"> Hi, My name is Nancy</p>
+
+        .intro { text-align: center; color: red; }
+
+        a:visited{color: blue; }
+
+        a: link{color: blue;}
+
+        a:hover{
+            cursor: pointer
+        }
     </body>
 
 
