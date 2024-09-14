@@ -20,8 +20,9 @@
                 background-color: #f4f4f4;
                 color: #333;
             }
-            header, footer {
-                background: #333;
+            header, nav {
+                background-image: url('images/background.jpg'); 
+                size: 200%;
                 color: #fff;
                 padding: 10px 20px;
                 text-align: center;
@@ -48,25 +49,49 @@
 
         <header>
             <h1>Welcome to Binghui's Website</h1>
-            <p>This is my personal space on the web for all my projects and interests.</p>
         </header>
 
+
+        <div>
+        <nav <ul="background: #444; padding: 10px 20px; text-align: center;">
+            <a href="#about-me" style="color: white; text-decoration: none; margin-right: 15px;">Introduction</a>
+            <a href="#education" style="color: white; text-decoration: none; margin-right: 15px;">Education</a>
+            <a href="#projects" style="color: white; text-decoration: none;">Projects</a>
+        </nav>
+        </div>
+
         <main>
+        <div id="about-me">
+        
             <section>
                 <h2>About me</h2>
-                <p>Hi, I'm Binghui! I'm currently a graduate student at Clark University, specializing in Geographic Information Science (GIS).</p>
-                <img src="images/headshots.jpeg" alt="Binghui Profile Picture" style="width: 200px; height: auto;">
-            </section>
+                <p>Hi, I'm Binghui! I'm currently a graduate student at Clark University, specializing in Geographic Information Science (GIS). This is my personal space on the web for all my projects and interests.</p>
+                <figure>
+                    <img src="images/headshots.jpeg" alt="Binghui Profile Picture" style="width: 200px; height: auto;">
+                    <figcaption>Binghui Li - Profile Picture</figcaption>
+                </figure>
 
+            </section>
+        </div>
+
+        <div id="education">
             <section>
                 <h2>Education</h2>
                 <ul>
                     <li>Master of Science in Geographic Information Science (GIS) - <i>Dec 2024</i></li>
                     <li>Bachelor of Science in Civil Engineering - <i>May 2022</i></li>
                 </ul>
+
+                <p><b>Certificate</b></p>
+                <figure>
+                    <img src="images/Certificate.jpg" alt="Certificate" style="width: 300px; height: auto;">
+                    <figcaption>Certification - Clark University</figcaption>
+                </figure>
             </section>
+        </div>
 
 
+        <div id="projects">
             <section>
                 <h2>Projects</h2>
                 <p>Here are some of the projects I've worked on:</p>
@@ -77,19 +102,24 @@
                 <ul>
                     <li>working on it...</li>
                 </ul>
-
             </section>
+        </div>
 
 
             <section>
                 <h3>Contact</h3>
+                <p>950 Main St,<br> Worcester, MA 01610</p>
+
                 <p>You can reach me via email at: <a href="mailto:Bingli@clarku.edu">Bingli@clarku.edu</a></p>
             </section>
-        
         </main>
+        
+
+        <div>
         <footer>
-            <p>Copyright &copy; 2024 Binghui Li. All rights reserved.</p>
+            <p><i>Copyright &copy; 2024 Binghui Li. All rights reserved.</i></p>
         </footer>
+        </div>
     </body>
 
 
