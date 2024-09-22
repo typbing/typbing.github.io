@@ -6,7 +6,7 @@ body {
     color: #333;
 }
 header, nav {
-    background-image: url('images/background.jpg'); 
+    background-image: url('css/background.jpg'); 
     background-size: 200%;
     color: #fff;
     padding: 10px 20px;
