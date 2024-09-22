@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header, nav {
+    background-image: url('images/background.jpg'); 
+    background-size: 200%;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    background: #fff;
+    margin-top: 10px;
+}
+img {
+    max-width: 100%;
+}
