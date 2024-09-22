@@ -6,7 +6,7 @@ body {
     color: #333;
 }
 header, nav {
-    background-image: url('css/background.jpg'); 
+    background-image: url('background.jpg'); 
     background-size: 200%;
     color: #fff;
     padding: 10px 20px;
@@ -19,4 +19,16 @@ main {
 }
 img {
     max-width: 100%;
+}
+
+nav a {
+    color: #ffffff;
+    padding: 10px 15px; 
+    text-decoration: none; 
+    background-color: #3498db; 
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #2980b9; 
 }
