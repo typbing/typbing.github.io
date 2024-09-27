@@ -51,6 +51,17 @@
             </nav>           
         </div>
 
+        <style>
+            /* Highlight effect */
+            .highlight_e {
+                background-color: yellow; 
+            }
+        </style>
+
+        <button class="change_bk">Click here to highlight my past experience</button>
+
+
+
         <main>
         <div id="about-me">
         
@@ -91,7 +102,7 @@
                         <th>Project Name</th>
                         <th>Description</th>
                     </tr>
-                    <tr>
+                    <tr id="project-nyc">
                         <td><a href="TransEcon.html">Transportation and Economic Analysis in NYC</a></td>
                         <td>Explores the impact of transportation infrastructure on NYC's economic landscape, focusing on property values, economic growth, and business activity.</td>
                     </tr>
@@ -113,7 +124,18 @@
                 <p>You can reach me via email at: <a href="mailto:Bingli@clarku.edu">Bingli@clarku.edu</a></p>
             </section>
         </main>
-        
+
+
+        <script>
+            window.onload = function() {
+                const changeButton = document.querySelector(".change_bk");
+                const projectNYC = document.getElementById("project-nyc");
+
+                changeButton.onclick = function() {
+                    projectNYC.classList.toggle("highlight_e");
+                };
+            };
+        </script>
 
         <div>
         <footer>
