@@ -1,32 +1,16 @@
-Initio - Free, multipurpose html5 template
-=============
+# Binghui Li - Personal Website
 
-Initio is a fully featured html5 theme which will help you create a stylish personal or company site. 
-6 page layout templates should cover all your development needs. 
-Font Awesome 4, parallax effects and more are included (but can be turned off of course)
+Welcome to my personal website, where I showcase my projects, skills, and experiences in Geographic Information Science (GIS), web development, and related fields. This site is built using the **Initio** template, a free and versatile HTML5 theme. Below are the details about the template and its licensing.
 
+## About the Website
 
-License
--------
-**Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
+This website serves as my portfolio, highlighting my academic journey, professional experiences, and various projects I have worked on. It is designed to provide an engaging and professional presentation of my work, including interactive elements and downloadable resources.
 
 
-Bug tracker
------------
+## Template Credits
 
-Found a bug? Please create an issue here on GitHub! 
-https://github.com/pozh/Initio/issues
+The website design is based on the **Initio** HTML5 template created by **Sergey Pozhilov**. The template provides a fully-featured and stylish layout that suits both personal and professional websites.
 
+The Initio template is licensed under the **Creative Commons Attribution 3.0** license:  
+[http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)
 
-
-Credits
--------
-* Design and development: **Sergey Pozhilov** - http://pozhilov.com
-* More free templates by Sergey: http://gettemplate.com
-
-Photos used in the template
--------
-* http://www.publicdomainpictures.net/view-image.php?image=19999
-* http://www.publicdomainpictures.net/view-image.php?image=6354
-* http://imcreator.com/free/business/macbook-computer
-* http://unsplush.com
