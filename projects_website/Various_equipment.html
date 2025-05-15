@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Various Equipment</title>
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" />
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <style>
+    body {
+      font-family: "Open Sans", sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .equipment-list {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .equipment-item {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .equipment-item img {
+      width: 180px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .equipment-caption {
+      font-weight: 600;
+      font-size: 1.1em;
+      color: #333;
+    }
+
+    @media screen and (max-width: 600px) {
+      .equipment-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .equipment-item img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Equipment I Operate</h1>
+
+  <style>
+    .back-button {
+      display: inline-block;
+      margin: 10px 0 20px;
+      padding: 8px 16px;
+      background-color: #ddd;
+      color: #333;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .back-button:hover {
+      background-color: #ccc;
+    }
+  </style>
+  
+  <div style="text-align: right;">
+    <a href="../about_me.html" class="back-button">← Back to About Me</a>
+  </div>
+  
+
+  <div class="equipment-list">
+    <div class="equipment-item">
+      <img src="../project_wj_PdfOrjpg/Various equipment/All Kinds of Paper.jpeg" alt="All Kinds of Paper" />
+      <div class="equipment-caption">All Kinds of Paper — Used for printing and plotting maps in different formats and sizes.</div>
+    </div>
+
+    <div class="equipment-item">
+      <img src="../project_wj_PdfOrjpg/Various equipment/Paper Cutter.jpeg" alt="Paper Cutter" />
+      <div class="equipment-caption">Paper Cutter — Used to trim maps and printed materials to standard or custom sizes.</div>
+    </div>
+
+    <div class="equipment-item">
+      <img src="../project_wj_PdfOrjpg/Various equipment/Plotter.jpeg" alt="Plotter" />
+      <div class="equipment-caption">Plotter — Used to print large-format engineering or GIS maps with high precision.</div>
+    </div>
+
+    <div class="equipment-item">
+      <img src="../project_wj_PdfOrjpg/Various equipment/Printer.jpeg" alt="Printer" />
+      <div class="equipment-caption">Printer — Used for producing general map outputs and project documentation.</div>
+    </div>
+
+    <div class="equipment-item">
+      <img src="../project_wj_PdfOrjpg/Various equipment/Scanner.jpeg" alt="Scanner" />
+      <div class="equipment-caption">Scanner — Used for digitizing physical documents and legacy maps for GIS processing.</div>
+    </div>
+  </div>
+</body>
+</html>
